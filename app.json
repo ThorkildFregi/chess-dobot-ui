@@ -45,12 +45,15 @@
         }
       ],
       "expo-web-browser",
-      ["expo-build-properties", { 
-          "android": { 
-            "usesCleartextTraffic": true 
-          } 
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,
