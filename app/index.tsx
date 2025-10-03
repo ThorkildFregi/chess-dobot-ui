@@ -47,7 +47,7 @@ export default function App() {
                                 }
                             };
 
-                            request.open("get", `http://192.168.0.107:8081/makeamove?code=${code}&fen=${fen}`);
+                            request.open("get", `http://192.168.232.77:8081/makeamove?code=${code}&fen=${fen}`);
                             request.send()                          
                         }
                     }}
